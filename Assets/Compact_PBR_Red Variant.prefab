@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2010038111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863867197177174836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f14c35e18fc60744a948aa55c08c938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  forwardDir: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  maxSteerAngle: 45
+  wheelFL: {fileID: 69340893382036703}
+  wheelFR: {fileID: 2458756688339086613}
+--- !u!1001 &1864002983769159720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000011461272348, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_Name
+      value: Compact_PBR_Red Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011461272348, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94989866
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.31255817
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 36.427002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012441966630, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812731812508988663, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812731812508988663, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812731812508988663, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324308984967600663, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324308984967600663, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324308984967600663, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305730381740840253, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305730381740840253, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305730381740840253, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438704491959440808, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438704491959440808, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438704491959440808, guid: 0f21a3bb638581f4e8983838b1445052,
+        type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f21a3bb638581f4e8983838b1445052, type: 3}
+--- !u!1 &1863867197177174836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011461272348, guid: 0f21a3bb638581f4e8983838b1445052,
+    type: 3}
+  m_PrefabInstance: {fileID: 1864002983769159720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &69340893382036703 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 1812731812508988663, guid: 0f21a3bb638581f4e8983838b1445052,
+    type: 3}
+  m_PrefabInstance: {fileID: 1864002983769159720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &2458756688339086613 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 4305730381740840253, guid: 0f21a3bb638581f4e8983838b1445052,
+    type: 3}
+  m_PrefabInstance: {fileID: 1864002983769159720}
+  m_PrefabAsset: {fileID: 0}
